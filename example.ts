@@ -1,16 +1,12 @@
-let grade:string
+let grade:string = '85'
 
-let grade2:number
-let test_total:number
-
-grade ='A'
-
-grade2 = 85
-
-test_total =95
+let grade2:number = 85
+let test_total:number = 100
 
 
-let calcPercentage = (studentGrade, testTotal) => {
+
+
+let calcPercentage = (studentGrade:number, testTotal:number) : string => {
     let percentage = studentGrade/ testTotal
 
     return `Thisstudent got ${percentage} on the test`
